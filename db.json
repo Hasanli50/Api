@@ -1,64 +1,151 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Smartphone",
-        "price": 799.99,
-        "isDiscounted": true
-      },
-      {
-        "id": 2,
-        "name": "Bluetooth Headphones",
-        "price": 129.99,
-        "isDiscounted": false
-      },
-      {
-        "id": 3,
-        "name": "Smartwatch",
-        "price": 199.99,
-        "isDiscounted": true
-      },
-      {
-        "id": 4,
-        "name": "Gaming Mouse",
-        "price": 59.99,
-        "isDiscounted": false
-      },
-      {
-        "id": 5,
-        "name": "Wireless Charger",
-        "price": 39.99,
-        "isDiscounted": true
-      },
-      {
-        "id": 6,
-        "name": "4K TV",
-        "price": 999.99,
-        "isDiscounted": false
-      },
-      {
-        "id": 7,
-        "name": "Laptop Sleeve",
-        "price": 29.99,
-        "isDiscounted": false
-      },
-      {
-        "id": 8,
-        "name": "Portable Speaker",
-        "price": 89.99,
-        "isDiscounted": true
-      },
-      {
-        "id": 9,
-        "name": "E-Reader",
-        "price": 119.99,
-        "isDiscounted": false
-      },
-      {
-        "id": 10,
-        "name": "Smart Home Hub",
-        "price": 149.99,
-        "isDiscounted": true
-      }
-    ]
-  }
+  "book": [
+    {
+      "id": "sVtRS32GboirO8SdMWf0d",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "publishedYear": 1960
+    },
+    {
+      "id": "bVQaGoGc1hrNCtt76EeBL",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "publishedYear": 1949
+    },
+    {
+      "id": "K54lYxavqdmAD_4xkuTYB",
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "publishedYear": 1851
+    },
+    {
+      "id": "V0R-za1oHR9VFX9kRjBFi",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Tragedy",
+      "publishedYear": 1925
+    },
+    {
+      "id": "M1l5x8_stmRuZF3BdxE9A",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "publishedYear": 1813
+    },
+    {
+      "id": "1R-uko17xY214ylmqNyFV",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "publishedYear": 1951
+    },
+    {
+      "id": "27lRoVhE7hOdi8XJViFkm",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Science Fiction",
+      "publishedYear": 1932
+    },
+    {
+      "id": "QHd2IIe4WGvPL63P8rWas",
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Philosophical Fiction",
+      "publishedYear": 1866
+    },
+    {
+      "id": "7rE9vc9MJqfXbycb8NUg4",
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "genre": "Historical Fiction",
+      "publishedYear": 1869
+    },
+    {
+      "id": "2z9kCpvkUlys1djus-uhk",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishedYear": 1937
+    },
+    {
+      "id": "XcC33HfzdX7A-mPOD7C4z",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "genre": "Philosophy",
+      "publishedYear": 1890
+    },
+    {
+      "id": "boMUk6jKfetP4g8Lv3CEU",
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "genre": "Tragedy",
+      "publishedYear": 1877
+    },
+    {
+      "id": "pScXIR2w2USvWCOJYul_y",
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Psychological Fiction",
+      "publishedYear": 1880
+    },
+    {
+      "id": "3Eo20QA2fAHj6AB7S9o_X",
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Dystopian",
+      "publishedYear": 1953
+    },
+    {
+      "id": "UgcAYUd0wdKyfLVVA7U3E",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "publishedYear": 1954
+    },
+    {
+      "id": "yUYjxCn9JeWHz6vviTWD6",
+      "title": "The Catcher Was a Spy",
+      "author": "Nicholas Dawidoff",
+      "genre": "Biography",
+      "publishedYear": 1994
+    },
+    {
+      "id": "pcaXY9P-cwD1PuFB9E50d",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "genre": "Gothic Horror",
+      "publishedYear": 1897
+    },
+    {
+      "id": "cPW6T57EIR1WOSWLemNu8",
+      "title": "The Secret Garden",
+      "author": "Frances Hodgson Burnett",
+      "genre": "Children's Literature",
+      "publishedYear": 1911
+    },
+    {
+      "id": "hN6tTRgsNwqzZbgeYrGos",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "genre": "Romantic Fiction",
+      "publishedYear": 1847
+    },
+    {
+      "id": "Wz3rTQwOSEUh7wluGqxWQ",
+      "title": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "genre": "Adventure",
+      "publishedYear": 1884
+    },
+    {
+      "id": "8B8VK78DqCCKNOjFYgRHj",
+      "title": "The Shining",
+      "author": "Stephen King",
+      "genre": "Horror",
+      "publishedYear": 1977
+    }
+  ]
+}
