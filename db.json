@@ -1,151 +1,191 @@
 {
-  "book": [
+  "artists": [
     {
-      "id": "sVtRS32GboirO8SdMWf0d",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "genre": "Fiction",
-      "publishedYear": 1960
+      "id": 1,
+      "name": "John Doe",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Pop",
+      "country": "USA",
+      "age": 30,
+      "info": "A popular artist known for his amazing pop hits.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": "bVQaGoGc1hrNCtt76EeBL",
-      "title": "1984",
-      "author": "George Orwell",
-      "genre": "Dystopian",
-      "publishedYear": 1949
+      "id": 3,
+      "name": "Charlie Brown",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Jazz",
+      "country": "Canada",
+      "age": 40,
+      "info": "A jazz artist with over 20 years of experience in the music industry.",
+      "isVerified": true,
+      "songs": [
+        {
+          "title": "Homage",
+          "releaseYear": "2010",
+          "coverSrc": "https://i.scdn.co/image/ab67616d0000b27396bc7d5bd0b6488de76598ab"
+        },
+        {
+          "title": "Save Yours Tears",
+          "releaseYear": "2018",
+          "coverSrc": "https://m.media-amazon.com/images/M/MV5BZTk5NDRiYjctM2EwNy00NWMzLWFlMDQtZTRiZGU3MjY1MTYxXkEyXkFqcGc@._V1_.jpg"
+        }
+      ]
     },
     {
-      "id": "K54lYxavqdmAD_4xkuTYB",
-      "title": "Moby-Dick",
-      "author": "Herman Melville",
-      "genre": "Adventure",
-      "publishedYear": 1851
+      "id": 4,
+      "name": "Emily Davis",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Classical",
+      "country": "Germany",
+      "age": 28,
+      "info": "A classical pianist who has performed at world-renowned venues.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": "V0R-za1oHR9VFX9kRjBFi",
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "genre": "Tragedy",
-      "publishedYear": 1925
+      "id": 5,
+      "name": "Lucas Foster",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Blues",
+      "country": "USA",
+      "age": 34,
+      "info": "A soulful blues guitarist known for his emotional performances.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": "M1l5x8_stmRuZF3BdxE9A",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "genre": "Romance",
-      "publishedYear": 1813
+      "id": 6,
+      "name": "Amara Lee",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Hip-Hop",
+      "country": "South Korea",
+      "age": 22,
+      "info": "A rising star in the hip-hop scene with a unique style.",
+      "isVerified": false,
+      "songs": []
     },
     {
-      "id": "1R-uko17xY214ylmqNyFV",
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "genre": "Fiction",
-      "publishedYear": 1951
+      "id": 7,
+      "name": "Liam Turner",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Pop",
+      "country": "Canada",
+      "age": 26,
+      "info": "A Canadian pop singer with a smooth, soulful voice.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": "27lRoVhE7hOdi8XJViFkm",
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "genre": "Science Fiction",
-      "publishedYear": 1932
+      "id": 8,
+      "name": "Sophia Gonzalez",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Latin",
+      "country": "Mexico",
+      "age": 32,
+      "info": "A Latin artist known for her rhythmic, vibrant performances.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": "QHd2IIe4WGvPL63P8rWas",
-      "title": "Crime and Punishment",
-      "author": "Fyodor Dostoevsky",
-      "genre": "Philosophical Fiction",
-      "publishedYear": 1866
+      "id": 9,
+      "name": "Marcus Lee",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "R&B",
+      "country": "USA",
+      "age": 29,
+      "info": "An R&B artist with a smooth and emotional vocal style.",
+      "isVerified": false,
+      "songs": []
     },
     {
-      "id": "7rE9vc9MJqfXbycb8NUg4",
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "genre": "Historical Fiction",
-      "publishedYear": 1869
+      "id": 10,
+      "name": "Nina Zhang",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Classical",
+      "country": "China",
+      "age": 35,
+      "info": "A renowned violinist who has performed with international orchestras.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": "2z9kCpvkUlys1djus-uhk",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publishedYear": 1937
+      "id": 11,
+      "name": "David Kim",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Rock",
+      "country": "South Korea",
+      "age": 34,
+      "info": "A rock artist with an edgy, electric style and a strong fan following.",
+      "isVerified": false,
+      "songs": []
     },
     {
-      "id": "XcC33HfzdX7A-mPOD7C4z",
-      "title": "The Picture of Dorian Gray",
-      "author": "Oscar Wilde",
-      "genre": "Philosophy",
-      "publishedYear": 1890
+      "id": 12,
+      "name": "Olivia Moore",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Jazz",
+      "country": "USA",
+      "age": 27,
+      "info": "A young jazz vocalist known for her improvisational skills.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": "boMUk6jKfetP4g8Lv3CEU",
-      "title": "Anna Karenina",
-      "author": "Leo Tolstoy",
-      "genre": "Tragedy",
-      "publishedYear": 1877
+      "id": 13,
+      "name": "Ethan Wilson",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Indie",
+      "country": "Australia",
+      "age": 24,
+      "info": "An indie artist with introspective lyrics and minimalist instrumentation.",
+      "isVerified": false,
+      "songs": []
     },
     {
-      "id": "pScXIR2w2USvWCOJYul_y",
-      "title": "The Brothers Karamazov",
-      "author": "Fyodor Dostoevsky",
-      "genre": "Psychological Fiction",
-      "publishedYear": 1880
+      "id": 14,
+      "name": "Maya Patel",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Pop",
+      "country": "India",
+      "age": 31,
+      "info": "A pop artist blending traditional Indian sounds with modern beats.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": "3Eo20QA2fAHj6AB7S9o_X",
-      "title": "Fahrenheit 451",
-      "author": "Ray Bradbury",
-      "genre": "Dystopian",
-      "publishedYear": 1953
+      "id": 15,
+      "name": "Victor Alvarez",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Electronic",
+      "country": "Spain",
+      "age": 29,
+      "info": "An electronic music producer known for his experimental beats.",
+      "isVerified": true,
+      "songs": []
     },
     {
-      "id": "UgcAYUd0wdKyfLVVA7U3E",
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "author": "J.R.R. Tolkien",
-      "genre": "Fantasy",
-      "publishedYear": 1954
+      "id": 16,
+      "name": "Ava Martin",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Country",
+      "country": "USA",
+      "age": 26,
+      "info": "A country singer-songwriter known for heartfelt lyrics and acoustic performances.",
+      "isVerified": false,
+      "songs": []
     },
     {
-      "id": "yUYjxCn9JeWHz6vviTWD6",
-      "title": "The Catcher Was a Spy",
-      "author": "Nicholas Dawidoff",
-      "genre": "Biography",
-      "publishedYear": 1994
-    },
-    {
-      "id": "pcaXY9P-cwD1PuFB9E50d",
-      "title": "Dracula",
-      "author": "Bram Stoker",
-      "genre": "Gothic Horror",
-      "publishedYear": 1897
-    },
-    {
-      "id": "cPW6T57EIR1WOSWLemNu8",
-      "title": "The Secret Garden",
-      "author": "Frances Hodgson Burnett",
-      "genre": "Children's Literature",
-      "publishedYear": 1911
-    },
-    {
-      "id": "hN6tTRgsNwqzZbgeYrGos",
-      "title": "Wuthering Heights",
-      "author": "Emily Brontë",
-      "genre": "Romantic Fiction",
-      "publishedYear": 1847
-    },
-    {
-      "id": "Wz3rTQwOSEUh7wluGqxWQ",
-      "title": "The Adventures of Huckleberry Finn",
-      "author": "Mark Twain",
-      "genre": "Adventure",
-      "publishedYear": 1884
-    },
-    {
-      "id": "8B8VK78DqCCKNOjFYgRHj",
-      "title": "The Shining",
-      "author": "Stephen King",
-      "genre": "Horror",
-      "publishedYear": 1977
+      "id": 17,
+      "name": "Rafael Cruz",
+      "imgSrc": "https://www.pngitem.com/pimgs/m/421-4212617_person-placeholder-image-transparent-hd-png-download.png",
+      "genre": "Reggae",
+      "country": "Jamaica",
+      "age": 33,
+      "info": "A reggae artist with deep roots in Caribbean music and culture.",
+      "isVerified": true,
+      "songs": []
     }
   ]
 }
