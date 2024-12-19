@@ -1,49 +1,167 @@
 {
-  "movies": [
-    {
-      "id": 1,
-      "title": "Inception",
-      "releaseYear": 2010,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjExMjkwNTQ0Nl5BMl5BanBnXkFtZTcwNTY0OTk1Mw@@._V1_.jpg",
-      "desc": "A skilled thief who steals secrets through the use of dream-sharing technology is given a chance to have his criminal record erased if he can successfully perform an inception.",
-      "genre": "Sci-Fi",
-      "cast": []
-    },
-    {
-      "id": 2,
-      "title": "Titanic",
-      "releaseYear": 1997,
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-      "desc": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
-      "genre": "Romance",
-      "cast": []
-    },
-    {
-      "id": 3,
-      "title": "Avengers: Endgame",
-      "releaseYear": 2019,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_FMjpg_UX1000_.jpg",
-      "desc": "The Avengers assemble once more to reverse the damage done by Thanos and save the universe in this epic conclusion to the Marvel Cinematic Universe's Infinity Saga.",
-      "genre": "Action",
-      "cast": []
-    },
-    {
-      "id": 4,
-      "title": "The Lion King",
-      "releaseYear": 1994,
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_FMjpg_UX1000_.jpg",
-      "desc": "Lion prince Simba and his father are targeted by his evil uncle, who wants to ascend the throne himself.",
-      "genre": "Animation",
-      "cast": []
-    },
-    {
-      "id": 5,
-      "title": "Forrest Gump",
-      "releaseYear": 1994,
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_.jpg",
-      "desc": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an extraordinary life story.",
-      "genre": "Drama",
-      "cast": []
-    }
-  ]
+  "countries": [
+  {
+    "id": 1,
+    "name": "United States",
+    "population": 331002651,
+    "flagImg": "https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg",
+    "capital": "Washington, D.C.",
+    "description": "The United States of America is a country primarily located in North America.",
+    "religion": "Christianity"
+  },
+  {
+    "id": 2,
+    "name": "Germany",
+    "population": 83783942,
+    "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png",
+    "capital": "Berlin",
+    "description": "Germany is a country in Central Europe, known for its history and culture.",
+    "religion": "Christianity"
+  },
+  {
+    "id": 4,
+    "name": "Japan",
+    "population": 126856000,
+    "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png",
+    "capital": "Tokyo",
+    "description": "Japan is an island nation in East Asia, known for its technological innovations and culture.",
+    "religion": "Shinto"
+  },
+  {
+    "id": 5,
+    "name": "Germany",
+    "population": 83783942,
+    "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png",
+    "capital": "Berlin",
+    "description": "Germany is a country in Central Europe, known for its history and culture.",
+    "religion": "Christianity"
+  },
+  {
+    "id": 6,
+    "name": "Japan",
+    "population": 126856000,
+    "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png",
+    "capital": "Tokyo",
+    "description": "Japan is an island nation in East Asia, known for its technological innovations and culture.",
+    "religion": "Shinto"
+  },
+  {
+    "id": 7,
+    "name": "France",
+    "population": 67081000,
+    "flagImg": "https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg",
+    "capital": "Paris",
+    "description": "France is a country in Western Europe known for its art, fashion, and history.",
+    "religion": "Christianity"
+  },
+  {
+    "id": 8,
+    "name": "Brazil",
+    "population": 211049527,
+    "flagImg": "https://cdn.britannica.com/47/6847-050-075C3C65/Flag-Brazil.jpg",
+    "capital": "Brasilia",
+    "description": "Brazil is the largest country in South America and the fifth-largest in the world.",
+    "religion": "Christianity"
+  },
+  {
+    "id": 9,
+    "name": "Russia",
+    "population": 145934462,
+    "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png",
+    "capital": "Moscow",
+    "description": "Russia is the largest country in the world by land area, spanning Eastern Europe and northern Asia.",
+    "religion": "Christianity"
+  },
+  {
+    "id": 10,
+    "name": "Australia",
+    "population": 25499884,
+    "flagImg": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
+    "capital": "Canberra",
+    "description": "Australia is a country and continent surrounded by the Indian and Pacific Oceans.",
+    "religion": "Christianity"
+  }
+],
+"messages": [
+  {
+    "id": 1,
+    "fullName": "John Doe",
+    "email": "johndoe@example.com",
+    "title": "Inquiry about Services",
+    "message": "I would like more information about your services.",
+    "isRead": false
+  },
+  {
+    "id": 2,
+    "fullName": "Jane Smith",
+    "email": "janesmith@example.com",
+    "title": "Feedback on Product",
+    "message": "I am very satisfied with the product and would recommend it to others.",
+    "isRead": true
+  },
+  {
+    "id": 3,
+    "fullName": "Mike Johnson",
+    "email": "mikejohnson@example.com",
+    "title": "Support Request",
+    "message": "I am facing an issue with my account and need assistance.",
+    "isRead": false
+  },
+  {
+    "id": 4,
+    "fullName": "Emily Davis",
+    "email": "emilydavis@example.com",
+    "title": "Order Status",
+    "message": "Could you update me on the status of my order?",
+    "isRead": true
+  },
+  {
+    "id": 5,
+    "fullName": "David Wilson",
+    "email": "davidwilson@example.com",
+    "title": "Partnership Inquiry",
+    "message": "I would like to discuss a potential partnership opportunity.",
+    "isRead": true
+  },
+  {
+    "id": 6,
+    "fullName": "Sarah Brown",
+    "email": "sarahbrown@example.com",
+    "title": "Job Application",
+    "message": "I am interested in the open position and have attached my resume.",
+    "isRead": true
+  },
+  {
+    "id": 7,
+    "fullName": "Chris Lee",
+    "email": "chrislee@example.com",
+    "title": "Payment Issue",
+    "message": "I am unable to make a payment and need help resolving this.",
+    "isRead": false
+  },
+  {
+    "id": 8,
+    "fullName": "Anna Taylor",
+    "email": "annataylor@example.com",
+    "title": "Product Inquiry",
+    "message": "Can you tell me more about the features of the new product?",
+    "isRead": true
+  },
+  {
+    "id": 9,
+    "fullName": "James Martinez",
+    "email": "jamesmartinez@example.com",
+    "title": "Shipping Confirmation",
+    "message": "Please confirm the shipping details for my recent order.",
+    "isRead": false
+  },
+  {
+    "id": 10,
+    "fullName": "Linda Harris",
+    "email": "lindaharris@example.com",
+    "title": "Event Invitation",
+    "message": "I would like to invite you to our upcoming event.",
+    "isRead": true
+  }
+]
 }
