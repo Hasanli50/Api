@@ -1,167 +1,81 @@
 {
-  "countries": [
-  {
-    "id": 1,
-    "name": "United States",
-    "population": 331002651,
-    "flagImg": "https://cdn.britannica.com/33/4833-050-F6E415FE/Flag-United-States-of-America.jpg",
-    "capital": "Washington, D.C.",
-    "description": "The United States of America is a country primarily located in North America.",
-    "religion": "Christianity"
-  },
-  {
-    "id": 2,
-    "name": "Germany",
-    "population": 83783942,
-    "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png",
-    "capital": "Berlin",
-    "description": "Germany is a country in Central Europe, known for its history and culture.",
-    "religion": "Christianity"
-  },
-  {
-    "id": 4,
-    "name": "Japan",
-    "population": 126856000,
-    "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png",
-    "capital": "Tokyo",
-    "description": "Japan is an island nation in East Asia, known for its technological innovations and culture.",
-    "religion": "Shinto"
-  },
-  {
-    "id": 5,
-    "name": "Germany",
-    "population": 83783942,
-    "flagImg": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png",
-    "capital": "Berlin",
-    "description": "Germany is a country in Central Europe, known for its history and culture.",
-    "religion": "Christianity"
-  },
-  {
-    "id": 6,
-    "name": "Japan",
-    "population": 126856000,
-    "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png",
-    "capital": "Tokyo",
-    "description": "Japan is an island nation in East Asia, known for its technological innovations and culture.",
-    "religion": "Shinto"
-  },
-  {
-    "id": 7,
-    "name": "France",
-    "population": 67081000,
-    "flagImg": "https://cdn.britannica.com/82/682-004-F0B47FCB/Flag-France.jpg",
-    "capital": "Paris",
-    "description": "France is a country in Western Europe known for its art, fashion, and history.",
-    "religion": "Christianity"
-  },
-  {
-    "id": 8,
-    "name": "Brazil",
-    "population": 211049527,
-    "flagImg": "https://cdn.britannica.com/47/6847-050-075C3C65/Flag-Brazil.jpg",
-    "capital": "Brasilia",
-    "description": "Brazil is the largest country in South America and the fifth-largest in the world.",
-    "religion": "Christianity"
-  },
-  {
-    "id": 9,
-    "name": "Russia",
-    "population": 145934462,
-    "flagImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/1280px-Flag_of_Russia.svg.png",
-    "capital": "Moscow",
-    "description": "Russia is the largest country in the world by land area, spanning Eastern Europe and northern Asia.",
-    "religion": "Christianity"
-  },
-  {
-    "id": 10,
-    "name": "Australia",
-    "population": 25499884,
-    "flagImg": "https://upload.wikimedia.org/wikipedia/commons/8/88/Flag_of_Australia_%28converted%29.svg",
-    "capital": "Canberra",
-    "description": "Australia is a country and continent surrounded by the Indian and Pacific Oceans.",
-    "religion": "Christianity"
-  }
-],
-"messages": [
-  {
-    "id": 1,
-    "fullName": "John Doe",
-    "email": "johndoe@example.com",
-    "title": "Inquiry about Services",
-    "message": "I would like more information about your services.",
-    "isRead": false
-  },
-  {
-    "id": 2,
-    "fullName": "Jane Smith",
-    "email": "janesmith@example.com",
-    "title": "Feedback on Product",
-    "message": "I am very satisfied with the product and would recommend it to others.",
-    "isRead": true
-  },
-  {
-    "id": 3,
-    "fullName": "Mike Johnson",
-    "email": "mikejohnson@example.com",
-    "title": "Support Request",
-    "message": "I am facing an issue with my account and need assistance.",
-    "isRead": false
-  },
-  {
-    "id": 4,
-    "fullName": "Emily Davis",
-    "email": "emilydavis@example.com",
-    "title": "Order Status",
-    "message": "Could you update me on the status of my order?",
-    "isRead": true
-  },
-  {
-    "id": 5,
-    "fullName": "David Wilson",
-    "email": "davidwilson@example.com",
-    "title": "Partnership Inquiry",
-    "message": "I would like to discuss a potential partnership opportunity.",
-    "isRead": true
-  },
-  {
-    "id": 6,
-    "fullName": "Sarah Brown",
-    "email": "sarahbrown@example.com",
-    "title": "Job Application",
-    "message": "I am interested in the open position and have attached my resume.",
-    "isRead": true
-  },
-  {
-    "id": 7,
-    "fullName": "Chris Lee",
-    "email": "chrislee@example.com",
-    "title": "Payment Issue",
-    "message": "I am unable to make a payment and need help resolving this.",
-    "isRead": false
-  },
-  {
-    "id": 8,
-    "fullName": "Anna Taylor",
-    "email": "annataylor@example.com",
-    "title": "Product Inquiry",
-    "message": "Can you tell me more about the features of the new product?",
-    "isRead": true
-  },
-  {
-    "id": 9,
-    "fullName": "James Martinez",
-    "email": "jamesmartinez@example.com",
-    "title": "Shipping Confirmation",
-    "message": "Please confirm the shipping details for my recent order.",
-    "isRead": false
-  },
-  {
-    "id": 10,
-    "fullName": "Linda Harris",
-    "email": "lindaharris@example.com",
-    "title": "Event Invitation",
-    "message": "I would like to invite you to our upcoming event.",
-    "isRead": true
-  }
-]
+  "animals": [
+    {
+      "id": 1,
+      "name": "Buddy",
+      "animalType": "Dog",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "weight": 30,
+      "owner": "John Doe",
+      "ImageURL": "https://images.theconversation.com/files/625049/original/file-20241010-15-95v3ha.jpg?ixlib=rb-4.1.0&rect=4%2C12%2C2679%2C1521&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
+    },
+    {
+      "id": 2,
+      "name": "Whiskers",
+      "animalType": "Cat",
+      "breed": "Siamese",
+      "age": 2,
+      "weight": 8,
+      "owner": "Jane Smith",
+      "ImageURL": "https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/fca42f04-2474-4302-a238-990c8aebfe8c/Siamese_cat_1110x740.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "animalType": "Dog",
+      "breed": "Beagle",
+      "age": 4,
+      "weight": 12,
+      "owner": "Michael Johnson",
+      "ImageURL": "https://www.dogster.com/wp-content/uploads/2024/03/kerry-beagle-lying-on-the-grass_DannyWalshm-Shutterstock-e1666052141642.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Polly",
+      "animalType": "Bird",
+      "breed": "Parrot",
+      "age": 5,
+      "weight": 1,
+      "owner": "Emily Clark",
+      "ImageURL": "https://www.copadearbol.com/wp-content/uploads/2024/04/Depositphotos_264538190_XL-1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Gessy",
+      "animalType": "Dog",
+      "breed": "Pomeranian",
+      "age": 4,
+      "weight": 5,
+      "owner": "Sophia Turner",
+      "ImageURL": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-07/Pomeranian1.jpg?h=60f40036&itok=o-Gng8D3"
+    }
+  ],
+  "sliders": [
+    {
+      "id": 1,
+      "title": "Golden Retriever: The Best Family Dog",
+      "url": "https://s3-us-west-1.amazonaws.com/assets.wagwalkingweb.com/media/daily_wag/blog_articles/body/1674624241.5310223/5-simple-reasons-golden-retrievers-are-the-best-family-dogs-5.png"
+    },
+    {
+      "id": 2,
+      "title": "10 Interesting Facts About Siamese Cats",
+      "url": "https://media.ceva.com/transform/427b472f-aeae-4aa6-ab8f-59074baa1b86/shutterstock_1558881650_cropped-min"
+    },
+    {
+      "id": 3,
+      "title": "How to Train a Beagle: Tips & Tricks",
+      "url": "https://www.thefarmersdog.com/digest/wp-content/uploads/2023/10/shutterstock_568674943.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Fascinating World of Parrots",
+      "url": "https://www.thefactsite.com/wp-content/uploads/2018/07/facts-about-parrots.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Charm of Pomeranians: Why They're Great Companions",
+      "url": "https://nativepet.com/cdn/shop/articles/four-Pomeranians-in-the-middle-of-a-street_f51606e2-2fea-401e-b962-e359ad01007f.jpg?v=1649407525&width=1000"
+    }
+  ]
 }
