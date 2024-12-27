@@ -1,81 +1,215 @@
 {
-  "animals": [
+  "users": [
     {
-      "id": 1,
-      "name": "Buddy",
-      "animalType": "Dog",
-      "breed": "Golden Retriever",
-      "age": 3,
-      "weight": 30,
-      "owner": "John Doe",
-      "ImageURL": "https://images.theconversation.com/files/625049/original/file-20241010-15-95v3ha.jpg?ixlib=rb-4.1.0&rect=4%2C12%2C2679%2C1521&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip"
+      "id": "u1",
+      "fullName": "John Doe",
+      "username": "johndoe",
+      "email": "john.doe@example.com",
+      "password": "password123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Programming",
+      "bio": "Passionate about teaching math and programming.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/johndoe",
+        "twitter": "https://twitter.com/johndoe"
+      }
     },
     {
-      "id": 2,
-      "name": "Whiskers",
-      "animalType": "Cat",
-      "breed": "Siamese",
-      "age": 2,
-      "weight": 8,
-      "owner": "Jane Smith",
-      "ImageURL": "https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/fca42f04-2474-4302-a238-990c8aebfe8c/Siamese_cat_1110x740.jpg"
+      "id": "u2",
+      "fullName": "Jane Smith",
+      "username": "janesmith",
+      "email": "jane.smith@example.com",
+      "password": "securepass",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "IT",
+      "grades": [
+        {
+          "taskId": "t1",
+          "grade": 85
+        }
+      ],
+      "overallGrade": 87
     },
     {
-      "id": 3,
-      "name": "Charlie",
-      "animalType": "Dog",
-      "breed": "Beagle",
-      "age": 4,
-      "weight": 12,
-      "owner": "Michael Johnson",
-      "ImageURL": "https://www.dogster.com/wp-content/uploads/2024/03/kerry-beagle-lying-on-the-grass_DannyWalshm-Shutterstock-e1666052141642.jpg"
+      "id": "u3",
+      "fullName": "Alice Johnson",
+      "username": "alicej",
+      "email": "alice.johnson@example.com",
+      "password": "mypassword",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Math",
+      "grades": [
+        {
+          "taskId": "t2",
+          "grade": 90
+        }
+      ],
+      "overallGrade": 92
     },
     {
-      "id": 4,
-      "name": "Polly",
-      "animalType": "Bird",
-      "breed": "Parrot",
-      "age": 5,
-      "weight": 1,
-      "owner": "Emily Clark",
-      "ImageURL": "https://www.copadearbol.com/wp-content/uploads/2024/04/Depositphotos_264538190_XL-1.jpg"
+      "id": "u4",
+      "fullName": "Robert Brown",
+      "username": "robertb",
+      "email": "robert.brown@example.com",
+      "password": "robert123",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "teacher",
+      "major": "Physics",
+      "bio": "Physics enthusiast with 15 years of teaching experience.",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/robertbrown",
+        "twitter": "https://twitter.com/robertbrown"
+      }
     },
     {
-      "id": 5,
-      "name": "Gessy",
-      "animalType": "Dog",
-      "breed": "Pomeranian",
-      "age": 4,
-      "weight": 5,
-      "owner": "Sophia Turner",
-      "ImageURL": "https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-07/Pomeranian1.jpg?h=60f40036&itok=o-Gng8D3"
+      "id": "u5",
+      "fullName": "Emily Davis",
+      "username": "emilyd",
+      "email": "emily.davis@example.com",
+      "password": "passw0rd",
+      "profileImage": "https://via.placeholder.com/150",
+      "role": "student",
+      "major": "Programming",
+      "grades": [
+        {
+          "taskId": "t3",
+          "grade": 78
+        }
+      ],
+      "overallGrade": 80
     }
   ],
-  "sliders": [
+  "classes": [
     {
-      "id": 1,
-      "title": "Golden Retriever: The Best Family Dog",
-      "url": "https://s3-us-west-1.amazonaws.com/assets.wagwalkingweb.com/media/daily_wag/blog_articles/body/1674624241.5310223/5-simple-reasons-golden-retrievers-are-the-best-family-dogs-5.png"
+      "id": "c1",
+      "name": "Algebra Basics",
+      "teacherId": "u1",
+      "topics": ["Linear Equations", "Quadratic Equations"],
+      "major": "Programming",
+      "studentIds": ["u2"],
+      "schedule": [
+        { "day": "Monday", "time": "10:00 - 11:30" },
+        { "day": "Wednesday", "time": "10:00 - 11:30" }
+      ]
     },
     {
-      "id": 2,
-      "title": "10 Interesting Facts About Siamese Cats",
-      "url": "https://media.ceva.com/transform/427b472f-aeae-4aa6-ab8f-59074baa1b86/shutterstock_1558881650_cropped-min"
+      "id": "c2",
+      "name": "Physics 101",
+      "teacherId": "u4",
+      "topics": ["Newton's Laws", "Electromagnetism"],
+      "major": "Physics",
+      "studentIds": ["u3", "u5"],
+      "schedule": [
+        { "day": "Tuesday", "time": "09:00 - 10:30" },
+        { "day": "Thursday", "time": "09:00 - 10:30" }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "classId": "c1",
+      "title": "Linear Equations Assignment",
+      "description": "Solve 10 linear equations.",
+      "topic": "Linear Equations",
+      "deadline": "2024-01-20T23:59:59Z",
+      "createdAt": "2024-01-10T09:00:00Z",
+      "teacherId": "u1",
+      "assignments": ["a1"],
+      "completionRate": 50
     },
     {
-      "id": 3,
-      "title": "How to Train a Beagle: Tips & Tricks",
-      "url": "https://www.thefarmersdog.com/digest/wp-content/uploads/2023/10/shutterstock_568674943.jpg"
+      "id": "t2",
+      "classId": "c2",
+      "title": "Newton's Laws Quiz",
+      "description": "Answer questions related to Newton's three laws.",
+      "topic": "Newton's Laws",
+      "deadline": "2024-02-01T23:59:59Z",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "teacherId": "u4",
+      "assignments": ["a2"],
+      "completionRate": 75
+    }
+  ],
+  "assignments": [
+    {
+      "id": "a1",
+      "taskId": "t1",
+      "studentId": "u2",
+      "url": "https://example.com/assignment1.pdf",
+      "assignDate": "2024-01-15T10:00:00Z",
+      "status": "submitted",
+      "feedback": "Great effort! Improve presentation next time."
     },
     {
-      "id": 4,
-      "title": "The Fascinating World of Parrots",
-      "url": "https://www.thefactsite.com/wp-content/uploads/2018/07/facts-about-parrots.jpg"
+      "id": "a2",
+      "taskId": "t2",
+      "studentId": "u3",
+      "url": "https://example.com/assignment2.pdf",
+      "assignDate": "2024-01-18T09:00:00Z",
+      "status": "pending",
+      "feedback": null
+    }
+  ],
+  "invitations": [
+    {
+      "id": "i1",
+      "classId": "c1",
+      "studentId": "u2",
+      "status": "accepted",
+      "expiresAt": "2024-01-15T23:59:59Z"
     },
     {
-      "id": 5,
-      "title": "The Charm of Pomeranians: Why They're Great Companions",
-      "url": "https://nativepet.com/cdn/shop/articles/four-Pomeranians-in-the-middle-of-a-street_f51606e2-2fea-401e-b962-e359ad01007f.jpg?v=1649407525&width=1000"
+      "id": "i2",
+      "classId": "c2",
+      "studentId": "u5",
+      "status": "pending",
+      "expiresAt": "2024-01-20T23:59:59Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "a1",
+      "classId": "c1",
+      "title": "Midterm Exam Date",
+      "content": "The midterm exam will be held on January 20th.",
+      "date": "2024-01-10T10:00:00Z"
+    },
+    {
+      "id": "a2",
+      "classId": "c2",
+      "title": "Class Rescheduled",
+      "content": "The class on January 25th has been rescheduled to January 27th.",
+      "date": "2024-01-12T08:00:00Z"
+    }
+  ],
+  "materials": [
+    {
+      "title": "Linear Equations Notes",
+      "description": "Comprehensive guide to solving linear equations.",
+      "likes": ["u2"],
+      "comments": [
+        {
+          "id": "c1",
+          "userId": "u2",
+          "content": "This was super helpful!"
+        }
+      ]
+    },
+    {
+      "title": "Physics Fundamentals",
+      "description": "Basic principles of physics explained.",
+      "likes": ["u3", "u5"],
+      "comments": [
+        {
+          "id": "c2",
+          "userId": "u5",
+          "content": "Very clear and easy to understand."
+        }
+      ]
     }
   ]
 }
